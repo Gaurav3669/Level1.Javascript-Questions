@@ -35,12 +35,12 @@
 // Q4. Sort Array both Ascending and Descending Order
 
 // const prompt = require('prompt-sync')();
-// let input = parseInt(prompt("Enter the numbers:"));
-// let nums = input.split(" ").map(Number);
-// let ascending = [nums].sort((a,b)=>a-b);
-// let descending = [nums].sort((a,b)=>b-a);
+// let input = prompt("Enter the numbers:");
+// let nums = input.split(' ').map(Number);
+// let ascending = [...nums].sort((a,b)=>a-b);
+// let descending = [...nums].sort((a,b)=>b-a);
 
-// console.log("Original Array is:",nums);
+// console.log("Original Array is:" , nums);
 // console.log("Ascending Order is:" , ascending);
 // console.log("Descending Order is:" , descending);
 

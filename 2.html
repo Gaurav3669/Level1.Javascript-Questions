@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Array Values</title>
+</head>
+<body>
+    <h2>Array Values:</h2>
+    <ul id="output"></ul>
+    <script>
+        let fruits = ["apple" , "banana" , "grapes"];
+        let outputElement = document.getElementById("output");
+        fruits.forEach(function(fruit){
+            let li = document.createElement("li");
+            li.innerText = fruit;
+            outputElement.appendChild(li);
+        });
+    </script>
+</body>
+</html>
